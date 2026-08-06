@@ -1,0 +1,3 @@
+# ads.txt — no authorized digital sellers configured yet.
+# When monetizing with ads, add lines in the form:
+# <SSP domain>, <publisher account ID>, DIRECT|RESELLER, <certification authority ID>

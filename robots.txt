@@ -1,0 +1,18 @@
+# robots.txt — PawBiotix
+User-agent: *
+Allow: /
+Disallow: /help/
+
+# Common AI crawlers (allowed; see /llms.txt for guidance)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://pawbiotix.vercel.app/sitemap.xml

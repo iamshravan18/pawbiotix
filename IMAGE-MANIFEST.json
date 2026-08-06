@@ -1,0 +1,1403 @@
+{
+  "project": "PawBiotix",
+  "primaryKeyword": "dog probiotics",
+  "note": "All assets are original placeholders. Replace files at identical dimensions; no HTML/CSS/JS changes needed.",
+  "assets": [
+    {
+      "filename": "pawbiotix-dog-probiotic-jar-360.png",
+      "basename": "pawbiotix-dog-probiotic-jar",
+      "folder": "assets/images/hero",
+      "width": 360,
+      "height": 420,
+      "aspectRatio": 0.857,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "PawBiotix dog probiotic powder jar with 5 strains, a 60-day supply",
+      "title": "PawBiotix dog probiotics",
+      "loading": "eager",
+      "priority": "high",
+      "section": "hero",
+      "responsiveWidths": [
+        360,
+        720
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/hero/pawbiotix-dog-probiotic-jar-360.avif",
+          "assets/images/hero/pawbiotix-dog-probiotic-jar-720.avif"
+        ],
+        "webp": [
+          "assets/images/hero/pawbiotix-dog-probiotic-jar-360.webp",
+          "assets/images/hero/pawbiotix-dog-probiotic-jar-720.webp"
+        ],
+        "png": [
+          "assets/images/hero/pawbiotix-dog-probiotic-jar-360.png",
+          "assets/images/hero/pawbiotix-dog-probiotic-jar-720.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "pawbiotix-dog-probiotic-2-bottle-package-140.png",
+      "basename": "pawbiotix-dog-probiotic-2-bottle-package",
+      "folder": "assets/images/pricing",
+      "width": 140,
+      "height": 163,
+      "aspectRatio": 0.859,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "PawBiotix 2-bottle dog probiotic package",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "pricing",
+      "responsiveWidths": [
+        140,
+        280
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-2-bottle-package-140.avif",
+          "assets/images/pricing/pawbiotix-dog-probiotic-2-bottle-package-280.avif"
+        ],
+        "webp": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-2-bottle-package-140.webp",
+          "assets/images/pricing/pawbiotix-dog-probiotic-2-bottle-package-280.webp"
+        ],
+        "png": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-2-bottle-package-140.png",
+          "assets/images/pricing/pawbiotix-dog-probiotic-2-bottle-package-280.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "pawbiotix-dog-probiotic-6-bottle-package-200.png",
+      "basename": "pawbiotix-dog-probiotic-6-bottle-package",
+      "folder": "assets/images/pricing",
+      "width": 200,
+      "height": 143,
+      "aspectRatio": 1.399,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "PawBiotix 6-bottle package with 3 free bonus guides and free shipping",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "pricing",
+      "responsiveWidths": [
+        200,
+        400
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-6-bottle-package-200.avif",
+          "assets/images/pricing/pawbiotix-dog-probiotic-6-bottle-package-400.avif"
+        ],
+        "webp": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-6-bottle-package-200.webp",
+          "assets/images/pricing/pawbiotix-dog-probiotic-6-bottle-package-400.webp"
+        ],
+        "png": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-6-bottle-package-200.png",
+          "assets/images/pricing/pawbiotix-dog-probiotic-6-bottle-package-400.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "pawbiotix-dog-probiotic-3-bottle-package-140.png",
+      "basename": "pawbiotix-dog-probiotic-3-bottle-package",
+      "folder": "assets/images/pricing",
+      "width": 140,
+      "height": 163,
+      "aspectRatio": 0.859,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "PawBiotix 3-bottle dog probiotic package",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "pricing",
+      "responsiveWidths": [
+        140,
+        280
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-3-bottle-package-140.avif",
+          "assets/images/pricing/pawbiotix-dog-probiotic-3-bottle-package-280.avif"
+        ],
+        "webp": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-3-bottle-package-140.webp",
+          "assets/images/pricing/pawbiotix-dog-probiotic-3-bottle-package-280.webp"
+        ],
+        "png": [
+          "assets/images/pricing/pawbiotix-dog-probiotic-3-bottle-package-140.png",
+          "assets/images/pricing/pawbiotix-dog-probiotic-3-bottle-package-280.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "pawbiotix-60-day-money-back-guarantee-220.png",
+      "basename": "pawbiotix-60-day-money-back-guarantee",
+      "folder": "assets/images/guarantee",
+      "width": 220,
+      "height": 220,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "60-day 100% money-back guarantee seal",
+      "title": "PawBiotix 60-day money-back guarantee",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "guarantee",
+      "responsiveWidths": [
+        220,
+        440
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/guarantee/pawbiotix-60-day-money-back-guarantee-220.avif",
+          "assets/images/guarantee/pawbiotix-60-day-money-back-guarantee-440.avif"
+        ],
+        "webp": [
+          "assets/images/guarantee/pawbiotix-60-day-money-back-guarantee-220.webp",
+          "assets/images/guarantee/pawbiotix-60-day-money-back-guarantee-440.webp"
+        ],
+        "png": [
+          "assets/images/guarantee/pawbiotix-60-day-money-back-guarantee-220.png",
+          "assets/images/guarantee/pawbiotix-60-day-money-back-guarantee-440.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "lactobacillus-acidophilus-dog-probiotic-48.png",
+      "basename": "lactobacillus-acidophilus-dog-probiotic",
+      "folder": "assets/images/ingredients",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Lactobacillus acidophilus probiotic strain in PawBiotix dog probiotics",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/lactobacillus-acidophilus-dog-probiotic-48.avif",
+          "assets/images/ingredients/lactobacillus-acidophilus-dog-probiotic-96.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/lactobacillus-acidophilus-dog-probiotic-48.webp",
+          "assets/images/ingredients/lactobacillus-acidophilus-dog-probiotic-96.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/lactobacillus-acidophilus-dog-probiotic-48.png",
+          "assets/images/ingredients/lactobacillus-acidophilus-dog-probiotic-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "bifidobacterium-animalis-dog-probiotic-48.png",
+      "basename": "bifidobacterium-animalis-dog-probiotic",
+      "folder": "assets/images/ingredients",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Bifidobacterium animalis probiotic strain in PawBiotix dog probiotics",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/bifidobacterium-animalis-dog-probiotic-48.avif",
+          "assets/images/ingredients/bifidobacterium-animalis-dog-probiotic-96.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/bifidobacterium-animalis-dog-probiotic-48.webp",
+          "assets/images/ingredients/bifidobacterium-animalis-dog-probiotic-96.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/bifidobacterium-animalis-dog-probiotic-48.png",
+          "assets/images/ingredients/bifidobacterium-animalis-dog-probiotic-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "enterococcus-faecium-dog-probiotic-48.png",
+      "basename": "enterococcus-faecium-dog-probiotic",
+      "folder": "assets/images/ingredients",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Enterococcus faecium probiotic strain in PawBiotix dog probiotics",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/enterococcus-faecium-dog-probiotic-48.avif",
+          "assets/images/ingredients/enterococcus-faecium-dog-probiotic-96.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/enterococcus-faecium-dog-probiotic-48.webp",
+          "assets/images/ingredients/enterococcus-faecium-dog-probiotic-96.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/enterococcus-faecium-dog-probiotic-48.png",
+          "assets/images/ingredients/enterococcus-faecium-dog-probiotic-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "lactobacillus-plantarum-dog-probiotic-48.png",
+      "basename": "lactobacillus-plantarum-dog-probiotic",
+      "folder": "assets/images/ingredients",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Lactobacillus plantarum probiotic strain in PawBiotix dog probiotics",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/lactobacillus-plantarum-dog-probiotic-48.avif",
+          "assets/images/ingredients/lactobacillus-plantarum-dog-probiotic-96.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/lactobacillus-plantarum-dog-probiotic-48.webp",
+          "assets/images/ingredients/lactobacillus-plantarum-dog-probiotic-96.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/lactobacillus-plantarum-dog-probiotic-48.png",
+          "assets/images/ingredients/lactobacillus-plantarum-dog-probiotic-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "bifidobacterium-lactis-dog-probiotic-48.png",
+      "basename": "bifidobacterium-lactis-dog-probiotic",
+      "folder": "assets/images/ingredients",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Bifidobacterium lactis probiotic strain in PawBiotix dog probiotics",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/bifidobacterium-lactis-dog-probiotic-48.avif",
+          "assets/images/ingredients/bifidobacterium-lactis-dog-probiotic-96.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/bifidobacterium-lactis-dog-probiotic-48.webp",
+          "assets/images/ingredients/bifidobacterium-lactis-dog-probiotic-96.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/bifidobacterium-lactis-dog-probiotic-48.png",
+          "assets/images/ingredients/bifidobacterium-lactis-dog-probiotic-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "prebiotic-inulin-fiber-for-dogs-48.png",
+      "basename": "prebiotic-inulin-fiber-for-dogs",
+      "folder": "assets/images/ingredients",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Prebiotic inulin fiber in PawBiotix dog probiotics",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/prebiotic-inulin-fiber-for-dogs-48.avif",
+          "assets/images/ingredients/prebiotic-inulin-fiber-for-dogs-96.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/prebiotic-inulin-fiber-for-dogs-48.webp",
+          "assets/images/ingredients/prebiotic-inulin-fiber-for-dogs-96.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/prebiotic-inulin-fiber-for-dogs-48.png",
+          "assets/images/ingredients/prebiotic-inulin-fiber-for-dogs-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": ""
+    },
+    {
+      "filename": "benefit-digestive-health-48.png",
+      "basename": "benefit-digestive-health",
+      "folder": "assets/images/icons",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "benefits",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/icons/benefit-digestive-health-48.avif",
+          "assets/images/icons/benefit-digestive-health-96.avif"
+        ],
+        "webp": [
+          "assets/images/icons/benefit-digestive-health-48.webp",
+          "assets/images/icons/benefit-digestive-health-96.webp"
+        ],
+        "png": [
+          "assets/images/icons/benefit-digestive-health-48.png",
+          "assets/images/icons/benefit-digestive-health-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": "decorative icon (alt empty); card heading conveys meaning"
+    },
+    {
+      "filename": "benefit-gut-microbiome-48.png",
+      "basename": "benefit-gut-microbiome",
+      "folder": "assets/images/icons",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "benefits",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/icons/benefit-gut-microbiome-48.avif",
+          "assets/images/icons/benefit-gut-microbiome-96.avif"
+        ],
+        "webp": [
+          "assets/images/icons/benefit-gut-microbiome-48.webp",
+          "assets/images/icons/benefit-gut-microbiome-96.webp"
+        ],
+        "png": [
+          "assets/images/icons/benefit-gut-microbiome-48.png",
+          "assets/images/icons/benefit-gut-microbiome-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": "decorative icon (alt empty); card heading conveys meaning"
+    },
+    {
+      "filename": "benefit-immune-support-48.png",
+      "basename": "benefit-immune-support",
+      "folder": "assets/images/icons",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "benefits",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/icons/benefit-immune-support-48.avif",
+          "assets/images/icons/benefit-immune-support-96.avif"
+        ],
+        "webp": [
+          "assets/images/icons/benefit-immune-support-48.webp",
+          "assets/images/icons/benefit-immune-support-96.webp"
+        ],
+        "png": [
+          "assets/images/icons/benefit-immune-support-48.png",
+          "assets/images/icons/benefit-immune-support-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": "decorative icon (alt empty); card heading conveys meaning"
+    },
+    {
+      "filename": "benefit-healthy-coat-48.png",
+      "basename": "benefit-healthy-coat",
+      "folder": "assets/images/icons",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "benefits",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/icons/benefit-healthy-coat-48.avif",
+          "assets/images/icons/benefit-healthy-coat-96.avif"
+        ],
+        "webp": [
+          "assets/images/icons/benefit-healthy-coat-48.webp",
+          "assets/images/icons/benefit-healthy-coat-96.webp"
+        ],
+        "png": [
+          "assets/images/icons/benefit-healthy-coat-48.png",
+          "assets/images/icons/benefit-healthy-coat-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": "decorative icon (alt empty); card heading conveys meaning"
+    },
+    {
+      "filename": "benefit-nutrient-absorption-48.png",
+      "basename": "benefit-nutrient-absorption",
+      "folder": "assets/images/icons",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "benefits",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/icons/benefit-nutrient-absorption-48.avif",
+          "assets/images/icons/benefit-nutrient-absorption-96.avif"
+        ],
+        "webp": [
+          "assets/images/icons/benefit-nutrient-absorption-48.webp",
+          "assets/images/icons/benefit-nutrient-absorption-96.webp"
+        ],
+        "png": [
+          "assets/images/icons/benefit-nutrient-absorption-48.png",
+          "assets/images/icons/benefit-nutrient-absorption-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": "decorative icon (alt empty); card heading conveys meaning"
+    },
+    {
+      "filename": "benefit-energy-48.png",
+      "basename": "benefit-energy",
+      "folder": "assets/images/icons",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "benefits",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/icons/benefit-energy-48.avif",
+          "assets/images/icons/benefit-energy-96.avif"
+        ],
+        "webp": [
+          "assets/images/icons/benefit-energy-48.webp",
+          "assets/images/icons/benefit-energy-96.webp"
+        ],
+        "png": [
+          "assets/images/icons/benefit-energy-48.png",
+          "assets/images/icons/benefit-energy-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": "decorative icon (alt empty); card heading conveys meaning"
+    },
+    {
+      "filename": "benefit-healthy-stool-48.png",
+      "basename": "benefit-healthy-stool",
+      "folder": "assets/images/icons",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "benefits",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/icons/benefit-healthy-stool-48.avif",
+          "assets/images/icons/benefit-healthy-stool-96.avif"
+        ],
+        "webp": [
+          "assets/images/icons/benefit-healthy-stool-48.webp",
+          "assets/images/icons/benefit-healthy-stool-96.webp"
+        ],
+        "png": [
+          "assets/images/icons/benefit-healthy-stool-48.png",
+          "assets/images/icons/benefit-healthy-stool-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": "decorative icon (alt empty); card heading conveys meaning"
+    },
+    {
+      "filename": "benefit-overall-wellness-48.png",
+      "basename": "benefit-overall-wellness",
+      "folder": "assets/images/icons",
+      "width": 48,
+      "height": 48,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "benefits",
+      "responsiveWidths": [
+        48,
+        96
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/icons/benefit-overall-wellness-48.avif",
+          "assets/images/icons/benefit-overall-wellness-96.avif"
+        ],
+        "webp": [
+          "assets/images/icons/benefit-overall-wellness-48.webp",
+          "assets/images/icons/benefit-overall-wellness-96.webp"
+        ],
+        "png": [
+          "assets/images/icons/benefit-overall-wellness-48.png",
+          "assets/images/icons/benefit-overall-wellness-96.png"
+        ]
+      },
+      "rendered": true,
+      "note": "decorative icon (alt empty); card heading conveys meaning"
+    },
+    {
+      "filename": "bacillus-coagulans-dog-probiotic-300.png",
+      "basename": "bacillus-coagulans-dog-probiotic",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Bacillus coagulans in PawBiotix dog probiotics",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/bacillus-coagulans-dog-probiotic-300.avif",
+          "assets/images/ingredients/bacillus-coagulans-dog-probiotic-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/bacillus-coagulans-dog-probiotic-300.webp",
+          "assets/images/ingredients/bacillus-coagulans-dog-probiotic-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/bacillus-coagulans-dog-probiotic-300.png",
+          "assets/images/ingredients/bacillus-coagulans-dog-probiotic-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "chicory-root-prebiotic-fiber-for-dogs-300.png",
+      "basename": "chicory-root-prebiotic-fiber-for-dogs",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Chicory root prebiotic fiber for dog gut health",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/chicory-root-prebiotic-fiber-for-dogs-300.avif",
+          "assets/images/ingredients/chicory-root-prebiotic-fiber-for-dogs-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/chicory-root-prebiotic-fiber-for-dogs-300.webp",
+          "assets/images/ingredients/chicory-root-prebiotic-fiber-for-dogs-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/chicory-root-prebiotic-fiber-for-dogs-300.png",
+          "assets/images/ingredients/chicory-root-prebiotic-fiber-for-dogs-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "l-glutamine-dog-gut-lining-support-300.png",
+      "basename": "l-glutamine-dog-gut-lining-support",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "L-glutamine for dog gut lining support",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/l-glutamine-dog-gut-lining-support-300.avif",
+          "assets/images/ingredients/l-glutamine-dog-gut-lining-support-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/l-glutamine-dog-gut-lining-support-300.webp",
+          "assets/images/ingredients/l-glutamine-dog-gut-lining-support-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/l-glutamine-dog-gut-lining-support-300.png",
+          "assets/images/ingredients/l-glutamine-dog-gut-lining-support-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "turmeric-root-dog-health-300.png",
+      "basename": "turmeric-root-dog-health",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Turmeric root for dog health",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/turmeric-root-dog-health-300.avif",
+          "assets/images/ingredients/turmeric-root-dog-health-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/turmeric-root-dog-health-300.webp",
+          "assets/images/ingredients/turmeric-root-dog-health-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/turmeric-root-dog-health-300.png",
+          "assets/images/ingredients/turmeric-root-dog-health-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "fennel-seed-dog-digestive-support-300.png",
+      "basename": "fennel-seed-dog-digestive-support",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Fennel seed for dog digestive support",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/fennel-seed-dog-digestive-support-300.avif",
+          "assets/images/ingredients/fennel-seed-dog-digestive-support-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/fennel-seed-dog-digestive-support-300.webp",
+          "assets/images/ingredients/fennel-seed-dog-digestive-support-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/fennel-seed-dog-digestive-support-300.png",
+          "assets/images/ingredients/fennel-seed-dog-digestive-support-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "flax-seed-omega-for-dogs-300.png",
+      "basename": "flax-seed-omega-for-dogs",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Flax seed omega for dogs",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/flax-seed-omega-for-dogs-300.avif",
+          "assets/images/ingredients/flax-seed-omega-for-dogs-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/flax-seed-omega-for-dogs-300.webp",
+          "assets/images/ingredients/flax-seed-omega-for-dogs-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/flax-seed-omega-for-dogs-300.png",
+          "assets/images/ingredients/flax-seed-omega-for-dogs-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "beef-liver-natural-dog-nutrition-300.png",
+      "basename": "beef-liver-natural-dog-nutrition",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Beef liver for natural dog nutrition",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/beef-liver-natural-dog-nutrition-300.avif",
+          "assets/images/ingredients/beef-liver-natural-dog-nutrition-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/beef-liver-natural-dog-nutrition-300.webp",
+          "assets/images/ingredients/beef-liver-natural-dog-nutrition-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/beef-liver-natural-dog-nutrition-300.png",
+          "assets/images/ingredients/beef-liver-natural-dog-nutrition-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "organic-kelp-dog-mineral-support-300.png",
+      "basename": "organic-kelp-dog-mineral-support",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Organic kelp for dog mineral support",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/organic-kelp-dog-mineral-support-300.avif",
+          "assets/images/ingredients/organic-kelp-dog-mineral-support-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/organic-kelp-dog-mineral-support-300.webp",
+          "assets/images/ingredients/organic-kelp-dog-mineral-support-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/organic-kelp-dog-mineral-support-300.png",
+          "assets/images/ingredients/organic-kelp-dog-mineral-support-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "chlorella-detox-support-for-dogs-300.png",
+      "basename": "chlorella-detox-support-for-dogs",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Chlorella detox support for dogs",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/chlorella-detox-support-for-dogs-300.avif",
+          "assets/images/ingredients/chlorella-detox-support-for-dogs-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/chlorella-detox-support-for-dogs-300.webp",
+          "assets/images/ingredients/chlorella-detox-support-for-dogs-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/chlorella-detox-support-for-dogs-300.png",
+          "assets/images/ingredients/chlorella-detox-support-for-dogs-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "copper-chlorophyllin-dog-gut-health-300.png",
+      "basename": "copper-chlorophyllin-dog-gut-health",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Copper chlorophyllin for dog gut health",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/copper-chlorophyllin-dog-gut-health-300.avif",
+          "assets/images/ingredients/copper-chlorophyllin-dog-gut-health-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/copper-chlorophyllin-dog-gut-health-300.webp",
+          "assets/images/ingredients/copper-chlorophyllin-dog-gut-health-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/copper-chlorophyllin-dog-gut-health-300.png",
+          "assets/images/ingredients/copper-chlorophyllin-dog-gut-health-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "hydrolyzed-fish-collagen-for-dogs-300.png",
+      "basename": "hydrolyzed-fish-collagen-for-dogs",
+      "folder": "assets/images/ingredients",
+      "width": 300,
+      "height": 300,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Hydrolyzed fish collagen for dogs",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "ingredients (staged)",
+      "responsiveWidths": [
+        300,
+        600
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/ingredients/hydrolyzed-fish-collagen-for-dogs-300.avif",
+          "assets/images/ingredients/hydrolyzed-fish-collagen-for-dogs-600.avif"
+        ],
+        "webp": [
+          "assets/images/ingredients/hydrolyzed-fish-collagen-for-dogs-300.webp",
+          "assets/images/ingredients/hydrolyzed-fish-collagen-for-dogs-600.webp"
+        ],
+        "png": [
+          "assets/images/ingredients/hydrolyzed-fish-collagen-for-dogs-300.png",
+          "assets/images/ingredients/hydrolyzed-fish-collagen-for-dogs-600.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged photo asset; not in current layout"
+    },
+    {
+      "filename": "healthy-dog-gut-guide-bonus-260.png",
+      "basename": "healthy-dog-gut-guide-bonus",
+      "folder": "assets/images/bonuses",
+      "width": 260,
+      "height": 338,
+      "aspectRatio": 0.769,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "The Healthy Dog Gut Guide free bonus cover",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "bonuses (staged)",
+      "responsiveWidths": [
+        260,
+        520
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/bonuses/healthy-dog-gut-guide-bonus-260.avif",
+          "assets/images/bonuses/healthy-dog-gut-guide-bonus-520.avif"
+        ],
+        "webp": [
+          "assets/images/bonuses/healthy-dog-gut-guide-bonus-260.webp",
+          "assets/images/bonuses/healthy-dog-gut-guide-bonus-520.webp"
+        ],
+        "png": [
+          "assets/images/bonuses/healthy-dog-gut-guide-bonus-260.png",
+          "assets/images/bonuses/healthy-dog-gut-guide-bonus-520.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged cover; bonus cards are text-only in current layout"
+    },
+    {
+      "filename": "home-remedies-for-dogs-bonus-260.png",
+      "basename": "home-remedies-for-dogs-bonus",
+      "folder": "assets/images/bonuses",
+      "width": 260,
+      "height": 338,
+      "aspectRatio": 0.769,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Home Remedies for Common Dog Issues free bonus cover",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "bonuses (staged)",
+      "responsiveWidths": [
+        260,
+        520
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/bonuses/home-remedies-for-dogs-bonus-260.avif",
+          "assets/images/bonuses/home-remedies-for-dogs-bonus-520.avif"
+        ],
+        "webp": [
+          "assets/images/bonuses/home-remedies-for-dogs-bonus-260.webp",
+          "assets/images/bonuses/home-remedies-for-dogs-bonus-520.webp"
+        ],
+        "png": [
+          "assets/images/bonuses/home-remedies-for-dogs-bonus-260.png",
+          "assets/images/bonuses/home-remedies-for-dogs-bonus-520.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged cover; bonus cards are text-only in current layout"
+    },
+    {
+      "filename": "happy-active-dog-handbook-bonus-260.png",
+      "basename": "happy-active-dog-handbook-bonus",
+      "folder": "assets/images/bonuses",
+      "width": 260,
+      "height": 338,
+      "aspectRatio": 0.769,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "The Happy, Active Dog Handbook free bonus cover",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "bonuses (staged)",
+      "responsiveWidths": [
+        260,
+        520
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/bonuses/happy-active-dog-handbook-bonus-260.avif",
+          "assets/images/bonuses/happy-active-dog-handbook-bonus-520.avif"
+        ],
+        "webp": [
+          "assets/images/bonuses/happy-active-dog-handbook-bonus-260.webp",
+          "assets/images/bonuses/happy-active-dog-handbook-bonus-520.webp"
+        ],
+        "png": [
+          "assets/images/bonuses/happy-active-dog-handbook-bonus-260.png",
+          "assets/images/bonuses/happy-active-dog-handbook-bonus-520.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged cover; bonus cards are text-only in current layout"
+    },
+    {
+      "filename": "gmp-certified-dog-supplement-120.png",
+      "basename": "gmp-certified-dog-supplement",
+      "folder": "assets/images/badges",
+      "width": 120,
+      "height": 60,
+      "aspectRatio": 2.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "GMP certified dog supplement badge",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "footer/trust badges (staged)",
+      "responsiveWidths": [
+        120,
+        240
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/badges/gmp-certified-dog-supplement-120.avif",
+          "assets/images/badges/gmp-certified-dog-supplement-240.avif"
+        ],
+        "webp": [
+          "assets/images/badges/gmp-certified-dog-supplement-120.webp",
+          "assets/images/badges/gmp-certified-dog-supplement-240.webp"
+        ],
+        "png": [
+          "assets/images/badges/gmp-certified-dog-supplement-120.png",
+          "assets/images/badges/gmp-certified-dog-supplement-240.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged; footer has no badge row in current layout"
+    },
+    {
+      "filename": "third-party-lab-tested-120.png",
+      "basename": "third-party-lab-tested",
+      "folder": "assets/images/badges",
+      "width": 120,
+      "height": 60,
+      "aspectRatio": 2.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Third-party lab tested badge",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "footer/trust badges (staged)",
+      "responsiveWidths": [
+        120,
+        240
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/badges/third-party-lab-tested-120.avif",
+          "assets/images/badges/third-party-lab-tested-240.avif"
+        ],
+        "webp": [
+          "assets/images/badges/third-party-lab-tested-120.webp",
+          "assets/images/badges/third-party-lab-tested-240.webp"
+        ],
+        "png": [
+          "assets/images/badges/third-party-lab-tested-120.png",
+          "assets/images/badges/third-party-lab-tested-240.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged; footer has no badge row in current layout"
+    },
+    {
+      "filename": "secure-checkout-120.png",
+      "basename": "secure-checkout",
+      "folder": "assets/images/badges",
+      "width": 120,
+      "height": 60,
+      "aspectRatio": 2.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Secure checkout badge",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "footer/trust badges (staged)",
+      "responsiveWidths": [
+        120,
+        240
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/badges/secure-checkout-120.avif",
+          "assets/images/badges/secure-checkout-240.avif"
+        ],
+        "webp": [
+          "assets/images/badges/secure-checkout-120.webp",
+          "assets/images/badges/secure-checkout-240.webp"
+        ],
+        "png": [
+          "assets/images/badges/secure-checkout-120.png",
+          "assets/images/badges/secure-checkout-240.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged; footer has no badge row in current layout"
+    },
+    {
+      "filename": "free-shipping-120.png",
+      "basename": "free-shipping",
+      "folder": "assets/images/badges",
+      "width": 120,
+      "height": 60,
+      "aspectRatio": 2.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Free shipping badge",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "footer/trust badges (staged)",
+      "responsiveWidths": [
+        120,
+        240
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/badges/free-shipping-120.avif",
+          "assets/images/badges/free-shipping-240.avif"
+        ],
+        "webp": [
+          "assets/images/badges/free-shipping-120.webp",
+          "assets/images/badges/free-shipping-240.webp"
+        ],
+        "png": [
+          "assets/images/badges/free-shipping-120.png",
+          "assets/images/badges/free-shipping-240.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged; footer has no badge row in current layout"
+    },
+    {
+      "filename": "customer-avatar-96.png",
+      "basename": "customer-avatar",
+      "folder": "assets/images/testimonials",
+      "width": 96,
+      "height": 96,
+      "aspectRatio": 1.0,
+      "preferredFormat": "avif",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "Customer avatar",
+      "title": "",
+      "loading": "lazy",
+      "priority": "low",
+      "section": "testimonials (staged)",
+      "responsiveWidths": [
+        96,
+        192
+      ],
+      "sources": {
+        "avif": [
+          "assets/images/testimonials/customer-avatar-96.avif",
+          "assets/images/testimonials/customer-avatar-192.avif"
+        ],
+        "webp": [
+          "assets/images/testimonials/customer-avatar-96.webp",
+          "assets/images/testimonials/customer-avatar-192.webp"
+        ],
+        "png": [
+          "assets/images/testimonials/customer-avatar-96.png",
+          "assets/images/testimonials/customer-avatar-192.png"
+        ]
+      },
+      "rendered": false,
+      "note": "staged; no testimonials section in current layout"
+    },
+    {
+      "filename": "pawbiotix-dog-probiotics-og.svg",
+      "basename": "pawbiotix-dog-probiotics-og",
+      "folder": "assets/images/social",
+      "width": 1200,
+      "height": 630,
+      "aspectRatio": 1.905,
+      "preferredFormat": "svg",
+      "secondaryFormat": "webp",
+      "fallbackFormat": "png",
+      "alt": "PawBiotix natural dog probiotics for gut health",
+      "title": "",
+      "loading": "n/a",
+      "priority": "n/a",
+      "section": "social/meta",
+      "responsiveWidths": [
+        1200
+      ],
+      "sources": {},
+      "rendered": true,
+      "note": "referenced by OG/Twitter meta tags"
+    }
+  ],
+  "summary": {
+    "totalAssets": 39,
+    "rendered": 20,
+    "staged": 19,
+    "rasterFiles": 228
+  }
+}

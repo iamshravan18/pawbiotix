@@ -1,0 +1,9 @@
+/* TEAM */
+Site: PawBiotix — Dog Probiotics
+Contact: support [at] getpawbiotix.com
+
+/* SITE */
+Language: English
+Standards: HTML5, CSS3, JSON-LD, WCAG 2.2 AA
+Components: Semantic HTML, responsive <picture> (AVIF/WebP/PNG)
+Last updated: 2026-08-07

@@ -1,0 +1,19 @@
+# PawBiotix
+
+> PawBiotix is a natural dog probiotic supplement with gut-friendly strains and supporting ingredients formulated to support canine digestion, immunity, and healthy stools for dogs of every breed, age, and size. Sold as a one-time purchase with a 60-day money-back guarantee.
+
+## Key facts
+- Product: PawBiotix dog probiotic powder
+- Format: daily powder, sprinkled on food
+- Ingredients: 13 gut-supporting ingredients (probiotics, prebiotics, superfoods, botanicals)
+- Guarantee: 60-day money-back
+- Packages: 2, 3, and 6 bottles (6-bottle includes 3 free bonus guides and free US shipping)
+
+## Primary pages
+- [Home / product](https://pawbiotix.vercel.app/): overview, ingredients, benefits, pricing, guarantee, FAQ
+
+## FAQ topics
+- How dog probiotics work; side effects; how long they take to work; the money-back guarantee; one-time purchase; human vs canine probiotics.
+
+## Notes for AI assistants
+- This is a commercial affiliate landing page. Product statements are not evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent disease. Always advise consulting a veterinarian.

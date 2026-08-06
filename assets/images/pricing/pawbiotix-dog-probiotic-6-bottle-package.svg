@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300" role="img" aria-label="Six-bottle PawBiotix package with three free bonus guides">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2fb3c5"/><stop offset="1" stop-color="#3d56b0"/></linearGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#008d65"/><stop offset="1" stop-color="#00a536"/></linearGradient>
+  </defs>
+  <ellipse cx="210" cy="288" rx="180" ry="12" fill="#000" opacity="0.08"/>
+  <g>
+    <!-- back bonus cards -->
+    <rect x="18" y="110" width="90" height="120" rx="8" fill="#f9f8da" stroke="#eb787a" stroke-width="3"/>
+    <rect x="40" y="90" width="90" height="130" rx="8" fill="#fff" stroke="#eb787a" stroke-width="3"/>
+    <rect x="62" y="72" width="90" height="140" rx="8" fill="#f9f8da" stroke="#eb787a" stroke-width="3"/>
+    <text x="107" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#eb787a">3 FREE</text>
+    <text x="107" y="166" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#eb787a">BONUSES</text>
+  </g>
+  <!-- bottles -->
+  <g transform="translate(150,60)">
+    <g transform="translate(0,0)"><rect x="0" y="18" width="46" height="12" rx="4" fill="url(#c)"/><rect x="-5" y="30" width="56" height="140" rx="12" fill="url(#b)"/></g>
+    <g transform="translate(58,-10)"><rect x="0" y="18" width="52" height="14" rx="4" fill="url(#c)"/><rect x="-6" y="32" width="64" height="160" rx="14" fill="url(#b)"/><rect x="2" y="60" width="48" height="90" rx="8" fill="#fff" opacity="0.94"/><text x="26" y="110" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="800" fill="#272727">Paw</text></g>
+    <g transform="translate(128,0)"><rect x="0" y="18" width="46" height="12" rx="4" fill="url(#c)"/><rect x="-5" y="30" width="56" height="140" rx="12" fill="url(#b)"/></g>
+    <g transform="translate(196,10)"><rect x="0" y="18" width="42" height="11" rx="4" fill="url(#c)"/><rect x="-4" y="29" width="50" height="126" rx="11" fill="url(#b)"/></g>
+  </g>
+  <circle cx="372" cy="60" r="40" fill="#eb787a"/>
+  <text x="372" y="55" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#fff">BEST</text>
+  <text x="372" y="72" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#fff">VALUE</text>
+</svg>
