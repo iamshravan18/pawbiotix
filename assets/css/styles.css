@@ -645,3 +645,89 @@ table.compare caption { caption-side: bottom; padding: .8rem 1rem; font-size: .8
   .hero__cta-row .btn, .section .btn--lg { width: 100%; }
   .hero__cta-row { gap: .6rem; }
 }
+
+
+/* ==========================================================================
+   Footer / support pages (Contact, Shipping, Refund, References, Legal)
+   Reuses the existing design system; adds a few on-brand, responsive parts.
+   ========================================================================== */
+
+/* Breadcrumbs */
+.crumbs { width: min(100% - 30px, var(--container-md)); margin-inline: auto; padding-top: 1.25rem; font-size: .88rem; color: var(--muted); }
+.crumbs ol { list-style: none; display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; padding: 0; margin: 0; }
+.crumbs li { display: inline-flex; align-items: center; }
+.crumbs li:not(:last-child)::after { content: "\203A"; color: var(--muted); margin-left: .35rem; }
+.crumbs a { color: var(--g-deep); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+.crumbs [aria-current="page"] { color: var(--ink); }
+
+/* Left-aligned page intro + meta */
+.page-head { max-width: 72ch; }
+.page-head .lede { margin-left: 0; }
+.updated { color: var(--muted); font-size: .9rem; margin: 0 0 1.25rem; }
+
+/* Prose rhythm for support/legal pages */
+.prose > h2 { margin-top: 2.25rem; }
+.prose > h2:first-of-type { margin-top: 1.25rem; }
+.prose p, .prose li { line-height: 1.65; }
+.prose a { color: var(--g-deep); }
+
+/* Support / info cards (icon + title + text + contact value) */
+.support-card { text-align: left; display: flex; flex-direction: column; }
+.support-card .icon-badge { background: var(--mint); width: 56px; height: 56px; }
+.support-card .icon-badge svg { fill: var(--g-deep); width: 28px; height: 28px; }
+.support-card h3 { font-size: 19px; color: var(--ink); margin-bottom: .35rem; }
+.support-card p { font-size: 15.5px; color: var(--ink-soft); margin-bottom: .7rem; flex: 1 1 auto; }
+.support-card__val { display: block; font-weight: 700; color: var(--g-deep); font-size: 16px; overflow-wrap: anywhere; }
+.support-card__val a { color: inherit; text-decoration: none; }
+.support-card__val a:hover { text-decoration: underline; }
+.support-card__note { display: block; font-size: 13px; color: var(--muted); margin-top: .25rem; }
+
+/* Numbered step cards (refund process) */
+.num-steps { counter-reset: step; display: grid; gap: 16px; margin-top: 1.75rem; grid-template-columns: repeat(2, 1fr); }
+.num-step { position: relative; background: #fff; border: 1px solid rgba(0, 121, 83, .10); border-radius: var(--radius-card); box-shadow: var(--shadow-card); padding: 24px 22px 22px; }
+.num-step::before { counter-increment: step; content: counter(step); display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--g-core); color: #fff; font-weight: 800; font-size: 18px; margin-bottom: .8rem; }
+.num-step h3 { font-size: 18px; margin-bottom: .35rem; color: var(--ink); }
+.num-step p { font-size: 15.5px; color: var(--ink-soft); margin: 0; line-height: 1.6; }
+
+/* Callout / helpful notes (mint panel) */
+.callout { background: var(--mint); border-radius: var(--radius-card); padding: 20px 22px; margin-top: 1.5rem; }
+.callout h3 { font-size: 18px; margin-bottom: .5rem; color: var(--g-deep); }
+.callout p { margin-bottom: .6rem; }
+.callout p:last-child, .callout ul:last-child { margin-bottom: 0; }
+
+/* Definition list (business hours, key facts) */
+.deflist { margin-top: 1rem; }
+.deflist > div { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; padding: .7rem 0; border-bottom: 1px solid rgba(0, 0, 0, .07); }
+.deflist > div:last-child { border-bottom: 0; }
+.deflist dt { font-weight: 700; color: var(--ink); flex: 0 0 12rem; margin: 0; }
+.deflist dd { margin: 0; color: var(--ink-soft); flex: 1 1 14rem; }
+
+/* Native <details> FAQ — no JS, matches .faq look */
+.qa { max-width: 840px; margin: 1.5rem auto 0; }
+.qa details { border: 2px solid var(--mint); border-radius: 12px; margin-bottom: 12px; background: #fff; overflow: hidden; }
+.qa summary { list-style: none; cursor: pointer; font-weight: 700; font-size: 1.05rem; color: var(--ink); padding: 16px 52px 16px 20px; position: relative; }
+.qa summary::-webkit-details-marker { display: none; }
+.qa summary:focus-visible { outline: 3px solid var(--g-light); outline-offset: 2px; }
+.qa summary::after { content: ""; position: absolute; right: 18px; top: 50%; width: 24px; height: 24px; transform: translateY(-50%); background: var(--g-core); border-radius: 50%; transition: transform .25s ease;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z'/%3E%3C/svg%3E") center/60% no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z'/%3E%3C/svg%3E") center/60% no-repeat; }
+.qa details[open] summary::after { transform: translateY(-50%) rotate(135deg); }
+.qa__a { padding: 0 20px 18px; }
+.qa__a p { margin: 0 0 .6rem; color: var(--ink-soft); font-size: 1rem; line-height: 1.6; }
+.qa__a p:last-child { margin-bottom: 0; }
+
+/* Subpage footer nav (multi-column, matches homepage footer tone) */
+.pagefoot__grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 32px; }
+.pagefoot__grid h2 { font-size: 16px; color: #fff; }
+.pagefoot__links { list-style: none; padding: 0; margin: 0; }
+.pagefoot__note { border-top: 1px solid #2a323c; margin-top: 28px; padding-top: 20px; color: #8b95a1; font-size: 13px; line-height: 1.6; }
+
+@media (max-width: 760px) {
+  .num-steps { grid-template-columns: 1fr; }
+  .pagefoot__grid { grid-template-columns: 1fr 1fr; }
+  .deflist dt { flex-basis: 100%; }
+}
+@media (max-width: 480px) {
+  .pagefoot__grid { grid-template-columns: 1fr; }
+}
