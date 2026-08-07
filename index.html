@@ -149,6 +149,7 @@
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",
           "itemCondition": "https://schema.org/NewCondition",
+          "validFrom": "2026-08-07",
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
             "applicableCountry": "US",
@@ -156,7 +157,69 @@
             "merchantReturnDays": 60,
             "returnMethod": "https://schema.org/ReturnByMail",
             "returnFees": "https://schema.org/FreeReturn"
-          }
+          },
+          "shippingDetails": [
+            {
+              "@type": "OfferShippingDetails",
+              "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" },
+              "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "USD" },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 2, "unitCode": "DAY" },
+                "transitTime": { "@type": "QuantitativeValue", "minValue": 5, "maxValue": 7, "unitCode": "DAY" }
+              }
+            },
+            {
+              "@type": "OfferShippingDetails",
+              "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "CA" },
+              "shippingRate": { "@type": "MonetaryAmount", "value": "15.95", "currency": "USD" },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 2, "unitCode": "DAY" },
+                "transitTime": { "@type": "QuantitativeValue", "minValue": 10, "maxValue": 15, "unitCode": "DAY" }
+              }
+            },
+            {
+              "@type": "OfferShippingDetails",
+              "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" },
+              "shippingRate": { "@type": "MonetaryAmount", "value": "15.95", "currency": "USD" },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 2, "unitCode": "DAY" },
+                "transitTime": { "@type": "QuantitativeValue", "minValue": 10, "maxValue": 15, "unitCode": "DAY" }
+              }
+            },
+            {
+              "@type": "OfferShippingDetails",
+              "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "IE" },
+              "shippingRate": { "@type": "MonetaryAmount", "value": "15.95", "currency": "USD" },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 2, "unitCode": "DAY" },
+                "transitTime": { "@type": "QuantitativeValue", "minValue": 10, "maxValue": 15, "unitCode": "DAY" }
+              }
+            },
+            {
+              "@type": "OfferShippingDetails",
+              "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "AU" },
+              "shippingRate": { "@type": "MonetaryAmount", "value": "15.95", "currency": "USD" },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 2, "unitCode": "DAY" },
+                "transitTime": { "@type": "QuantitativeValue", "minValue": 10, "maxValue": 15, "unitCode": "DAY" }
+              }
+            },
+            {
+              "@type": "OfferShippingDetails",
+              "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "NZ" },
+              "shippingRate": { "@type": "MonetaryAmount", "value": "15.95", "currency": "USD" },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 2, "unitCode": "DAY" },
+                "transitTime": { "@type": "QuantitativeValue", "minValue": 10, "maxValue": 15, "unitCode": "DAY" }
+              }
+            }
+          ]
         },
         "aggregateRating": {
           "@type": "AggregateRating",
