@@ -218,13 +218,49 @@ strong, b { font-weight: 700; }
 .benefit-card h3 { font-size: 20px; color: var(--ink); }
 .benefit-card p { font-size: 16px; color: var(--ink-soft); margin-bottom: 0; }
 
-/* ---------- Customer reviews (placeholder architecture — no fabricated content) ---------- */
-.review-card { background: #fff; border-radius: var(--radius-card); padding: 24px; box-shadow: var(--shadow-card); height: 100%; display: flex; flex-direction: column; gap: .75rem; text-align: left; }
-.review-card__badge { display: inline-flex; align-items: center; gap: .4rem; align-self: flex-start; font-size: 13px; font-weight: 700; letter-spacing: .02em; color: var(--g-deep); background: var(--mint); border-radius: 999px; padding: .4rem .8rem; }
+/* ---------- Customer reviews (premium testimonial cards) ---------- */
+/* Star rating (reusable) */
+.stars { display: inline-block; color: var(--star); font-size: 18px; letter-spacing: 2px; line-height: 1; }
+.stars--lg { font-size: 24px; }
+
+/* Aggregate rating under the section heading */
+.reviews-rating { display: inline-flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .5rem .75rem; margin: .35rem 0 .25rem; }
+.reviews-rating__score { font-size: 1rem; color: var(--ink-soft); }
+.reviews-rating__score strong { color: var(--ink); font-size: 1.15rem; }
+
+.review-card {
+  background: #fff; border: 1px solid rgba(0, 121, 83, .10); border-radius: var(--radius-card);
+  padding: 26px 24px; box-shadow: var(--shadow-card); height: 100%;
+  display: flex; flex-direction: column; gap: .85rem; text-align: left;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.review-card:hover { transform: translateY(-4px); box-shadow: 0 18px 40px rgba(16, 16, 16, .14); }
+
+/* Header: avatar + name + location */
+.review-card__head { display: flex; align-items: center; gap: .8rem; }
+.review-card__avatar { flex: 0 0 auto; width: 56px; height: 56px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 10px rgba(0, 0, 0, .15); border: 2px solid #fff; outline: 2px solid var(--mint); }
+.review-card__avatar img { width: 56px; height: 56px; object-fit: cover; border-radius: 50%; }
+.review-card__id { min-width: 0; }
+.review-card__name { display: flex; align-items: center; gap: .35rem; margin: 0; font-weight: 700; font-size: 16px; color: var(--ink); line-height: 1.2; }
+.review-card__check { display: inline-grid; place-items: center; width: 16px; height: 16px; border-radius: 50%; background: var(--g-deep); color: #fff; font-size: 10px; font-weight: 800; line-height: 1; }
+.review-card__loc { margin: 2px 0 0; font-size: 13px; color: var(--muted); }
+
+.review-card__title { margin: 0; font-size: 17px; font-weight: 700; color: var(--ink); line-height: 1.3; }
+.review-card__text { font-size: 15.5px; line-height: 1.6; color: var(--ink-soft); margin: 0; flex: 1 1 auto; }
+
+/* Meta row: verified badge + date */
+.review-card__meta { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem .65rem; font-size: 13px; color: var(--muted); margin: .1rem 0 0; padding-top: .85rem; border-top: 1px solid rgba(0, 0, 0, .06); }
+.review-card__badge { display: inline-flex; align-items: center; gap: .35rem; font-size: 12px; font-weight: 700; letter-spacing: .02em; color: var(--g-deep); background: var(--mint); border-radius: 999px; padding: .3rem .65rem; }
 .review-card__badge::before { content: "\2713"; font-weight: 800; }
-.review-card__text { font-size: 16px; color: var(--ink-soft); margin: 0; flex: 1 1 auto; }
-.review-card__meta { font-size: 14px; color: var(--muted); margin: 0; }
-.reviews-note { max-width: 720px; margin: 1.75rem auto 0; font-size: .95rem; line-height: 1.55; color: var(--muted); }
+.review-card__meta time { color: var(--muted); }
+
+.reviews-note { max-width: 760px; margin: 2rem auto 0; font-size: .9rem; line-height: 1.55; color: var(--muted); }
+
+@media (max-width: 600px) {
+  .review-card { padding: 20px 18px; }
+  .stars--lg { font-size: 21px; }
+  .reviews-rating__score { font-size: .95rem; }
+}
 
 /* ---------- Bonuses (white-bordered cards on gradient) ---------- */
 .bonus-card {
