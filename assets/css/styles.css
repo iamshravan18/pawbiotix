@@ -304,10 +304,10 @@ table.shipping th, table.shipping td { text-align: left; padding: 10px 20px; }  
 table.shipping tbody tr:nth-child(2n) { background: var(--grey-bg); }             /* tr:nth-child(2n) f5f5f5 */
 table.shipping thead th { background: var(--g-core); color: #fff; }
 
-/* ---------- Sticky mobile CTA ---------- */
-.sticky-cta { position: fixed; left: 0; right: 0; bottom: 0; z-index: 90; display: none; background: rgba(16, 16, 16, .92); backdrop-filter: blur(6px); padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); box-shadow: 0 -6px 20px rgba(0, 0, 0, .3); }
-.sticky-cta .btn { width: 100%; }
-@media (max-width: 992px) { .sticky-cta[data-visible="true"] { display: block; } }
+/* ---------- Sticky CTA (mobile-first; upgrades to horizontal bar) ---------- */
+.sticky-cta { position: fixed; left: 0; right: 0; bottom: 0; z-index: 90; padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); opacity: 0; visibility: hidden; transform: translateY(115%); transition: transform .3s ease, opacity .3s ease, visibility .3s ease; pointer-events: none; }
+.sticky-cta[data-visible="true"][data-dismissed="false"] { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; }
+.sticky-cta[data-near-pricing="true"], .sticky-cta[data-dismissed="true"] { opacity: 0; visibility: hidden; transform: translateY(115%); pointer-events: none; }
 
 /* ---------- Footer (reference: black bg, links 14px line-height 32) ---------- */
 .site-footer { background: #101418; color: #cbd2da; padding-block: 48px 32px; font-size: var(--f-small); }
@@ -436,19 +436,38 @@ table.shipping thead th { background: var(--g-core); color: #fff; }
    visual timeline, comparison table
    ========================================================================== */
 
-/* Smart sticky CTA (enhanced, dismissible) */
-.sticky-cta { display: block; }
-.sticky-cta__inner { display: flex; align-items: center; gap: .9rem; max-width: 640px; margin-inline: auto; }
-.sticky-cta__copy { flex: 1; min-width: 0; color: #fff; text-align: left; }
-.sticky-cta__title { font-weight: 700; font-size: 1rem; line-height: 1.15; }
-.sticky-cta__sub { font-size: .78rem; opacity: .9; line-height: 1.2; }
-.sticky-cta__btn { white-space: nowrap; padding: .8rem 1.4rem; font-size: 1rem; }
+/* Smart sticky CTA (enhanced, dismissible) — mobile-first: vertical stack, full-width button */
+.sticky-cta__inner { position: relative; display: flex; flex-direction: column; align-items: stretch; gap: 10px; max-width: 520px; margin-inline: auto; background: rgba(16, 16, 16, .94); backdrop-filter: blur(6px); border-radius: 14px; padding: 14px 16px; box-shadow: 0 10px 30px rgba(0, 0, 0, .38); }
+.sticky-cta__copy { display: flex; flex-direction: column; gap: 3px; min-width: 0; color: #fff; text-align: center; }
+.sticky-cta__title { font-weight: 800; font-size: 1.02rem; line-height: 1.15; letter-spacing: .01em; }
+.sticky-cta__sub { font-size: .82rem; opacity: .92; line-height: 1.25; }
+.sticky-cta__sub--full { display: none; }
+.sticky-cta__dot { color: var(--cta); font-weight: 800; margin: 0 .35em; }
+.sticky-cta__btn { width: 100%; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; white-space: nowrap; padding: .85rem 1.4rem; font-size: 1rem; }
 .sticky-cta__dismiss {
-  position: absolute; top: -12px; right: 10px; width: 26px; height: 26px; border-radius: 50%;
-  border: 1px solid rgba(255,255,255,.4); background: #101010; color: #fff; font-size: 15px; line-height: 1; cursor: pointer;
-  display: grid; place-items: center;
+  position: absolute; top: -12px; right: -6px; width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.45); background: #101010; color: #fff; font-size: 16px; line-height: 1; cursor: pointer;
+  display: grid; place-items: center; z-index: 2;
 }
-@media (max-width: 992px) { .sticky-cta[data-visible="true"][data-dismissed="false"] { display: block; } .sticky-cta { display: none; } }
+
+/* Tablet (>=768px): condensed horizontal bar */
+@media (min-width: 768px) {
+  .sticky-cta__inner { flex-direction: row; align-items: center; justify-content: space-between; gap: 20px; max-width: 720px; padding: 12px 20px; }
+  .sticky-cta__copy { text-align: left; flex: 1 1 auto; }
+  .sticky-cta__title { font-size: 1.08rem; }
+  .sticky-cta__sub--full { display: block; }
+  .sticky-cta__sub--short { display: none; }
+  .sticky-cta__btn { width: auto; flex: 0 0 auto; padding: .85rem 1.8rem; }
+}
+
+/* Desktop (>=1024px): premium wide horizontal bar */
+@media (min-width: 1024px) {
+  .sticky-cta { padding: 14px 24px calc(14px + env(safe-area-inset-bottom)); }
+  .sticky-cta__inner { max-width: 1280px; gap: 40px; padding: 16px 32px; border-radius: 18px; box-shadow: 0 12px 34px rgba(0, 0, 0, .4); }
+  .sticky-cta__title { font-size: 1.2rem; }
+  .sticky-cta__sub { font-size: .92rem; white-space: nowrap; }
+  .sticky-cta__btn { padding: 1rem 2.6rem; font-size: 1.05rem; }
+}
 
 /* Process flow diagram (horizontal chips → arrows; wraps on mobile) */
 .flow { display: flex; flex-wrap: wrap; align-items: stretch; justify-content: center; gap: .6rem; margin: 2rem auto 0; max-width: 960px; list-style: none; padding: 0; }
@@ -562,10 +581,11 @@ table.compare caption { caption-side: bottom; padding: .8rem 1rem; font-size: .8
   table.shipping td:nth-of-type(2)::before { content: "Delivery: "; font-weight: 700; color: var(--ink); }
 }
 
-/* Sticky CTA: don't overlap the pricing section (hide while pricing is in view) */
-@media (max-width: 992px) {
-  .sticky-cta[data-near-pricing="true"] { transform: translateY(130%); pointer-events: none; }
-  .sticky-cta { transition: transform .25s ease; }
+/* Sticky CTA: near-pricing hide is handled globally above. Respect reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  .sticky-cta { transition: opacity .2s ease, visibility .2s ease; transform: none; }
+  .sticky-cta[data-visible="true"][data-dismissed="false"] { transform: none; }
+  .sticky-cta[data-near-pricing="true"], .sticky-cta[data-dismissed="true"] { transform: none; }
 }
 
 /* Footer: more breathing room between blocks on mobile */

@@ -80,8 +80,8 @@
     @media(max-width:992px){.nav__cta{display:none}.nav__toggle{display:inline-flex}.nav__list{display:none}.hero__grid{grid-template-columns:1fr;text-align:center}.hero__media img{width:min(300px,66vw)}}
   </style>
 
-  <link rel="preload" as="style" href="/assets/css/styles.css?v=24d5a07f">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=24d5a07f">
+  <link rel="preload" as="style" href="/assets/css/styles.css?v=a7854224">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=a7854224">
   <script src="/assets/js/main.js?v=bc57ec3c" defer></script>
 
   <!-- Structured data: single @graph -->
@@ -1015,11 +1015,12 @@
 
   <!-- Smart sticky mobile CTA (appears after ~35% scroll; dismissible) -->
   <div class="sticky-cta" data-visible="false" data-dismissed="false" role="region" aria-label="Order PawBiotix">
-    <button class="sticky-cta__dismiss" type="button" aria-label="Dismiss">&times;</button>
     <div class="sticky-cta__inner">
+      <button class="sticky-cta__dismiss" type="button" aria-label="Dismiss">&times;</button>
       <div class="sticky-cta__copy">
         <span class="sticky-cta__title">Buy PawBiotix Today</span>
-        <span class="sticky-cta__sub">60-day money-back guarantee &middot; Secure ClickBank checkout</span>
+        <span class="sticky-cta__sub sticky-cta__sub--full">60-Day Money-Back Guarantee <span class="sticky-cta__dot" aria-hidden="true">&bull;</span> Secure ClickBank Checkout</span>
+        <span class="sticky-cta__sub sticky-cta__sub--short">60-Day Money-Back Guarantee</span>
       </div>
       <a class="btn btn--primary sticky-cta__btn" href="https://hop.clickbank.net/?affiliate=bestdg&vendor=pawbiotix&cbpage=tsl&tid=pawweb" target="_blank" rel="nofollow sponsored noopener" data-cta="sticky">Buy Now</a>
     </div>
