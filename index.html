@@ -174,7 +174,17 @@
           { "@type": "Question", "name": "Is this a one-off purchase?",
             "acceptedAnswer": { "@type": "Answer", "text": "Yes. Your order is a single purchase with no subscription, autoship or hidden charges. The price shown at checkout is the only price you pay." } },
           { "@type": "Question", "name": "Can I give my dog human probiotics instead?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Human probiotics are formulated for the human gut and often use strains and doses that are not matched to a dog's digestive system. A canine-specific probiotic such as PawBiotix targets the strains dogs benefit from most." } }
+            "acceptedAnswer": { "@type": "Answer", "text": "Human probiotics are formulated for the human gut and often use strains and doses that are not matched to a dog's digestive system. A canine-specific probiotic such as PawBiotix targets the strains dogs benefit from most." } },
+          { "@type": "Question", "name": "What are dog probiotics?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Dog probiotics are supplements of live, beneficial bacteria that support a dog's gut microbiome, digestion and immune function. They are often paired with prebiotic fiber, which feeds the bacteria. Canine-specific formulas are generally preferred over human probiotics." } },
+          { "@type": "Question", "name": "How long do dog probiotics usually take to work?",
+            "acceptedAnswer": { "@type": "Answer", "text": "It varies by dog and situation. For acute digestive upset, some studies note improvement within a few days; for everyday balance, many owners look across one to four weeks of consistent daily use. Speak with your veterinarian if issues persist." } },
+          { "@type": "Question", "name": "Can puppies take probiotics?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Many probiotics are suitable for puppies and may help during weaning and diet changes, but products and appropriate use vary. Confirm suitability and any age guidance with your veterinarian before starting." } },
+          { "@type": "Question", "name": "Can senior dogs take probiotics?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Senior dogs are commonly given probiotics to help maintain digestive balance as the microbiome shifts with age. Check with your veterinarian first, especially if your dog has a health condition or takes medication." } },
+          { "@type": "Question", "name": "What should I discuss with my vet before starting a supplement?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Share your dog's age, weight, health conditions and any medications. Ask whether a probiotic is appropriate, what to watch for, and how it fits their diet. Your veterinarian can flag interactions and set realistic expectations." } }
         ]
       }
     ]
@@ -197,9 +207,10 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
         </button>
         <ul class="nav__list" id="primary-nav">
+          <li><a href="#dog-gut-health">Gut Health</a></li>
           <li><a href="#ingredients">Ingredients</a></li>
           <li><a href="#benefits">Benefits</a></li>
-          <li><a href="#bonuses">Free Bonuses</a></li>
+          <li><a href="#choosing">Buying Guide</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
         <a class="btn btn--primary nav__cta" href="#pricing" data-cta="nav">Order Now</a>
@@ -256,12 +267,30 @@
     </section>
 
     <!-- ============ PROBLEM / GUT HEALTH (dark ingredient-style cards on gradient) ============ -->
-    <section class="section bg-glow-top" id="gut-health" aria-labelledby="gut-title">
+    <!-- ============ WHAT ARE DOG PROBIOTICS (educational) ============ -->
+    <section class="section bg-mint" id="what-are-dog-probiotics" aria-labelledby="wadp-title">
+      <div class="container container--md">
+        <div class="center section__head">
+          <span class="eyebrow" style="color:var(--g-deep)">Probiotics 101</span>
+          <h2 id="wadp-title">What Are Dog Probiotics?</h2>
+          <p class="lede">Dog probiotics are supplements containing live, beneficial bacteria that support a dog's gut. Given daily, they help maintain a balanced gut microbiome, aid digestion, and support the immune activity that lives largely in the digestive tract. Prebiotics are the plant fibers that feed those bacteria.</p>
+        </div>
+        <div class="grid grid--3" style="margin-top:2.25rem">
+          <article class="benefit-card" data-reveal><h3>Probiotics</h3><p>Live, beneficial bacteria (commonly <em>Lactobacillus</em> and <em>Bifidobacterium</em> species) that help balance the gut and support healthy digestion.</p></article>
+          <article class="benefit-card" data-reveal><h3>Prebiotics</h3><p>Plant fibers such as inulin that act as food for beneficial bacteria, helping them establish and flourish.</p></article>
+          <article class="benefit-card" data-reveal><h3>Why canine-specific?</h3><p>A dog's digestive system differs from a human's, so vets generally favor probiotics formulated for dogs over human products.</p></article>
+        </div>
+        <p class="center policy-note">Educational overview informed by veterinary sources including the <a href="https://www.akc.org/expert-advice/health/dog-probiotics-stages-of-life/" rel="nofollow noopener">American Kennel Club</a> and <a href="https://www.petmd.com/dog/vet-verified/best-probiotics-for-dogs" rel="nofollow noopener">PetMD</a>. See <a href="#references">references</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ UNDERSTANDING DOG GUT HEALTH ============ -->
+    <section class="section bg-glow-top" id="dog-gut-health" aria-labelledby="gut-title">
       <div class="container">
         <div class="center section__head">
           <span class="eyebrow">The Canine Microbiome</span>
-          <h2 id="gut-title" class="accent-yellow">Why Gut Health Matters for Dogs</h2>
-          <p class="lede">Roughly 70% of a dog's immune activity is tied to the gut. When the balance of healthy bacteria slips &mdash; from diet changes, age, stress or medication &mdash; you often see it as loose stools, gas, itching or low energy. A daily dog probiotic helps restore that balance at the source.</p>
+          <h2 id="gut-title" class="accent-yellow">Understanding Dog Gut Health</h2>
+          <p class="lede">A dog's gut hosts trillions of microbes &mdash; the microbiome &mdash; and a large share of the immune system resides there. When that balance is disrupted by diet changes, age, stress or medication, it can show up as loose stools, gas, itching or low energy. Restoring balance supports digestion and overall wellness.</p>
         </div>
         <div class="grid grid--3" style="margin-top:2.5rem">
           <article class="ingredient-card" data-reveal>
@@ -280,6 +309,7 @@
             <p>The gut-skin connection means better digestive balance can show up as a softer coat and steadier energy.</p>
           </article>
         </div>
+        <p class="center policy-note" style="color:#eaf6ee">Informed by peer-reviewed research on the canine microbiome and probiotics. See <a href="#references" style="color:var(--yellow)">references</a>.</p>
       </div>
     </section>
 
@@ -430,6 +460,64 @@
           <article class="benefit-card" data-reveal><div class="icon-badge"><picture><source type="image/avif" sizes="48px" srcset="/assets/images/icons/benefit-energy-48.avif 48w, /assets/images/icons/benefit-energy-96.avif 96w"><source type="image/webp" sizes="48px" srcset="/assets/images/icons/benefit-energy-48.webp 48w, /assets/images/icons/benefit-energy-96.webp 96w"><img src="/assets/images/icons/benefit-energy-48.png" width="48" height="48" alt="" loading="lazy" decoding="async"></picture></div><h3>Steady energy</h3><p>A comfortable gut helps your dog feel more like themselves.</p></article>
           <article class="benefit-card" data-reveal><div class="icon-badge"><picture><source type="image/avif" sizes="48px" srcset="/assets/images/icons/benefit-overall-wellness-48.avif 48w, /assets/images/icons/benefit-overall-wellness-96.avif 96w"><source type="image/webp" sizes="48px" srcset="/assets/images/icons/benefit-overall-wellness-48.webp 48w, /assets/images/icons/benefit-overall-wellness-96.webp 96w"><img src="/assets/images/icons/benefit-overall-wellness-48.png" width="48" height="48" alt="" loading="lazy" decoding="async"></picture></div><h3>Any age or breed</h3><p>Formulated for puppies through seniors, small dogs to large.</p></article>
           <article class="benefit-card" data-reveal><div class="icon-badge"><picture><source type="image/avif" sizes="48px" srcset="/assets/images/icons/benefit-nutrient-absorption-48.avif 48w, /assets/images/icons/benefit-nutrient-absorption-96.avif 96w"><source type="image/webp" sizes="48px" srcset="/assets/images/icons/benefit-nutrient-absorption-48.webp 48w, /assets/images/icons/benefit-nutrient-absorption-96.webp 96w"><img src="/assets/images/icons/benefit-nutrient-absorption-48.png" width="48" height="48" alt="" loading="lazy" decoding="async"></picture></div><h3>Simple to give</h3><p>Unflavored powder sprinkles right onto their usual food.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHO CAN BENEFIT (educational, life stages) ============ -->
+    <section class="section" id="who-should-use" aria-labelledby="who-title">
+      <div class="container">
+        <div class="center section__head">
+          <span class="eyebrow" style="color:var(--g-deep)">Life Stages</span>
+          <h2 id="who-title">Who Can Benefit From a Dog Probiotic?</h2>
+          <p class="lede">Dogs of most ages and breeds can be supported by a daily probiotic. Veterinary guidance suggests gut support may be especially helpful during diet transitions, stress, travel, or after a course of antibiotics. Always confirm suitability with your veterinarian before starting a supplement.</p>
+        </div>
+        <div class="grid grid--3" style="margin-top:2.25rem">
+          <article class="benefit-card" data-reveal><h3>Puppies</h3><p>A developing microbiome may benefit from gentle support, particularly around weaning and diet changes. Confirm suitability with your vet.</p></article>
+          <article class="benefit-card" data-reveal><h3>Adult dogs</h3><p>Everyday digestive balance, stool quality and immune support are common reasons owners add a daily probiotic.</p></article>
+          <article class="benefit-card" data-reveal><h3>Senior dogs</h3><p>Aging can shift the gut microbiome; steady daily support may help maintain comfortable digestion.</p></article>
+        </div>
+        <p class="center policy-note">Life-stage guidance adapted from the <a href="https://www.akc.org/expert-advice/health/dog-probiotics-stages-of-life/" rel="nofollow noopener">American Kennel Club</a>. See <a href="#references">references</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ HOW TO CHOOSE (neutral buying guide) ============ -->
+    <section class="section bg-mint" id="choosing" aria-labelledby="choosing-title">
+      <div class="container container--md">
+        <div class="center section__head">
+          <span class="eyebrow" style="color:var(--g-deep)">Buying Guide</span>
+          <h2 id="choosing-title">How to Choose a Dog Probiotic</h2>
+          <p class="lede">Not all dog probiotics are equal. These neutral criteria &mdash; drawn from how veterinary editors evaluate supplements &mdash; help you compare any product you're considering.</p>
+        </div>
+        <ul class="checklist">
+          <li><strong>Ingredient transparency</strong> &mdash; the label clearly lists what's inside.</li>
+          <li><strong>Strain diversity</strong> &mdash; more than one type of beneficial bacteria.</li>
+          <li><strong>Prebiotic fiber</strong> &mdash; feeds the probiotics so they can establish.</li>
+          <li><strong>Quality manufacturing</strong> &mdash; made in a controlled, standards-based facility.</li>
+          <li><strong>Purity testing</strong> &mdash; screened for toxins and contaminants.</li>
+          <li><strong>A satisfaction guarantee</strong> &mdash; lets you try it with low risk.</li>
+          <li><strong>Responsive support</strong> &mdash; easy to reach for questions or refunds.</li>
+        </ul>
+        <p class="center policy-note">PawBiotix states its ingredients are tested for purity and is backed by a 60-day money-back guarantee. For exact strains and potency (CFU), consult the official product label.</p>
+      </div>
+    </section>
+
+    <!-- ============ SAFETY (general, educational + vet disclaimer) ============ -->
+    <section class="section" id="safety" aria-labelledby="safety-title">
+      <div class="container container--md">
+        <div class="center section__head">
+          <span class="eyebrow" style="color:var(--g-deep)">Safety</span>
+          <h2 id="safety-title">Are Dog Probiotics Safe?</h2>
+          <p class="lede">Research and veterinary guidance generally regard probiotics as safe and well tolerated in healthy dogs. Some dogs may have mild, temporary digestive changes when starting one. Dogs that are ill, immunocompromised, or on medication should be evaluated by a veterinarian first.</p>
+        </div>
+        <div class="panel" style="max-width:720px;margin-inline:auto">
+          <h3>When to talk to your veterinarian</h3>
+          <ul class="panel-list">
+            <li>Before starting any new supplement, especially if your dog has a health condition or takes medication.</li>
+            <li>If digestive issues are severe, contain blood, or persist beyond a couple of days.</li>
+            <li>If you notice any unusual reaction after starting a probiotic.</li>
+          </ul>
+          <p class="policy-note" style="margin-bottom:0">General safety information based on veterinary literature (see <a href="#references">references</a>); not a substitute for professional veterinary advice.</p>
         </div>
       </div>
     </section>
@@ -636,6 +724,48 @@
             <h3 style="margin:0"><button class="faq__q" id="q6" aria-expanded="false" aria-controls="a6">Can I give my dog human probiotics instead?</button></h3>
             <div class="faq__a" id="a6" role="region" aria-labelledby="q6"><p>Human probiotics are formulated for the human gut and often use strains and doses that aren't matched to a dog's digestive system. A canine-specific probiotic like PawBiotix targets the strains dogs benefit from most.</p></div>
           </div>
+          <div class="faq__item">
+            <h3 style="margin:0"><button class="faq__q" id="q7" aria-expanded="false" aria-controls="a7">What are dog probiotics?</button></h3>
+            <div class="faq__a" id="a7" role="region" aria-labelledby="q7"><p>Dog probiotics are supplements of live, beneficial bacteria that support a dog's gut microbiome, digestion and immune function. They're often paired with prebiotic fiber, which feeds the bacteria. Canine-specific formulas are generally preferred over human probiotics.</p></div>
+          </div>
+          <div class="faq__item">
+            <h3 style="margin:0"><button class="faq__q" id="q8" aria-expanded="false" aria-controls="a8">How long do dog probiotics usually take to work?</button></h3>
+            <div class="faq__a" id="a8" role="region" aria-labelledby="q8"><p>It varies by dog and situation. For acute digestive upset, some studies note improvement within a few days; for everyday balance, many owners look across one to four weeks of consistent daily use. Speak with your veterinarian if issues persist.</p></div>
+          </div>
+          <div class="faq__item">
+            <h3 style="margin:0"><button class="faq__q" id="q9" aria-expanded="false" aria-controls="a9">Can puppies take probiotics?</button></h3>
+            <div class="faq__a" id="a9" role="region" aria-labelledby="q9"><p>Many probiotics are suitable for puppies and may help during weaning and diet changes, but products and appropriate use vary. Confirm suitability and any age guidance with your veterinarian before starting.</p></div>
+          </div>
+          <div class="faq__item">
+            <h3 style="margin:0"><button class="faq__q" id="q10" aria-expanded="false" aria-controls="a10">Can senior dogs take probiotics?</button></h3>
+            <div class="faq__a" id="a10" role="region" aria-labelledby="q10"><p>Yes. Senior dogs are commonly given probiotics to help maintain digestive balance as the microbiome shifts with age. Check with your veterinarian first, especially if your dog has a health condition or takes medication.</p></div>
+          </div>
+          <div class="faq__item">
+            <h3 style="margin:0"><button class="faq__q" id="q11" aria-expanded="false" aria-controls="a11">What should I discuss with my vet before starting a supplement?</button></h3>
+            <div class="faq__a" id="a11" role="region" aria-labelledby="q11"><p>Share your dog's age, weight, health conditions and any medications. Ask whether a probiotic is appropriate, what to watch for, and how it fits their diet. Your veterinarian can flag interactions and set realistic expectations.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REFERENCES & EDITORIAL NOTES (EEAT) ============ -->
+    <section class="section bg-grey" id="references" aria-labelledby="ref-title">
+      <div class="container container--md">
+        <div class="center section__head">
+          <span class="eyebrow" style="color:var(--g-deep)">Sources</span>
+          <h2 id="ref-title">References &amp; Editorial Notes</h2>
+          <p class="lede">The educational content on this page is informed by reputable veterinary and scientific sources.</p>
+        </div>
+        <ol class="references">
+          <li>American Kennel Club (AKC). "How Probiotics Work in Every Stage of a Dog's Life." <a href="https://www.akc.org/expert-advice/health/dog-probiotics-stages-of-life/" rel="nofollow noopener">akc.org</a></li>
+          <li>PetMD (vet-verified). "Probiotics for Dogs." <a href="https://www.petmd.com/dog/vet-verified/best-probiotics-for-dogs" rel="nofollow noopener">petmd.com</a></li>
+          <li>Systematic review: "Clinical effect of probiotics in prevention or treatment of gastrointestinal disease in dogs." PMC. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6766488/" rel="nofollow noopener">ncbi.nlm.nih.gov</a></li>
+          <li>"Application of Probiotics in Cats and Dogs: Benefits and Mechanisms." <em>Veterinary Sciences</em>, MDPI (2025). <a href="https://www.mdpi.com/2306-7381/12/10/1008" rel="nofollow noopener">mdpi.com</a></li>
+        </ol>
+        <div class="policy-note" style="margin-top:1.5rem">
+          <p><strong>Editorial policy:</strong> Educational content is written for pet owners and reviewed for accuracy against the sources above. We separate general canine-health education from PawBiotix-specific facts, which are drawn from official product information.</p>
+          <p><strong>Content review:</strong> This page is maintained and updated periodically; the last update date is shown in the footer. It has not been endorsed by an individual veterinarian.</p>
+          <p><strong>Medical disclaimer:</strong> This content is for general educational purposes only and is not veterinary advice, diagnosis, or treatment. Always consult a licensed veterinarian before starting a new supplement.</p>
         </div>
       </div>
     </section>
