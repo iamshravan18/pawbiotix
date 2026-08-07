@@ -11,7 +11,11 @@
 - Where to buy: official website via secure ClickBank checkout.
 
 ## Primary pages
-- [Home / product](https://pawbiotix.vercel.app/): overview, ingredients, benefits, pricing, guarantee, FAQ
+- [Home / product](https://www.trypawbiotix.com/): overview, ingredients, benefits, pricing, guarantee, FAQ
+- [Shipping policy](https://www.trypawbiotix.com/shipping): delivery times, tracking, international shipping
+- [Refund policy](https://www.trypawbiotix.com/refund): 60-day money-back guarantee and refund process
+- [Contact & support](https://www.trypawbiotix.com/contact): product, order, shipping and refund support
+- [References](https://www.trypawbiotix.com/references): veterinary and peer-reviewed sources
 
 ## FAQ topics
 - How dog probiotics work; side effects; how long they take to work; the money-back guarantee; one-time purchase; human vs canine probiotics.

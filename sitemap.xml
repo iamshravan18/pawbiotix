@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://pawbiotix.vercel.app/</loc>
+    <loc>https://www.trypawbiotix.com/</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://pawbiotix.vercel.app/assets/images/hero/pawbiotix-dog-probiotic-jar-720.png</image:loc>
+      <image:loc>https://www.trypawbiotix.com/assets/images/hero/pawbiotix-dog-probiotic-jar-720.png</image:loc>
       <image:title>PawBiotix Dog Probiotics</image:title>
     </image:image>
   </url>
-  <url><loc>https://pawbiotix.vercel.app/about</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://pawbiotix.vercel.app/contact</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://pawbiotix.vercel.app/privacy</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://pawbiotix.vercel.app/terms</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://pawbiotix.vercel.app/cookies</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://pawbiotix.vercel.app/disclaimer</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://www.trypawbiotix.com/contact</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.trypawbiotix.com/shipping</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.trypawbiotix.com/refund</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.trypawbiotix.com/references</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.trypawbiotix.com/about</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.trypawbiotix.com/privacy</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://www.trypawbiotix.com/terms</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://www.trypawbiotix.com/cookies</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://www.trypawbiotix.com/disclaimer</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>
