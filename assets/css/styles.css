@@ -218,6 +218,14 @@ strong, b { font-weight: 700; }
 .benefit-card h3 { font-size: 20px; color: var(--ink); }
 .benefit-card p { font-size: 16px; color: var(--ink-soft); margin-bottom: 0; }
 
+/* ---------- Customer reviews (placeholder architecture — no fabricated content) ---------- */
+.review-card { background: #fff; border-radius: var(--radius-card); padding: 24px; box-shadow: var(--shadow-card); height: 100%; display: flex; flex-direction: column; gap: .75rem; text-align: left; }
+.review-card__badge { display: inline-flex; align-items: center; gap: .4rem; align-self: flex-start; font-size: 13px; font-weight: 700; letter-spacing: .02em; color: var(--g-deep); background: var(--mint); border-radius: 999px; padding: .4rem .8rem; }
+.review-card__badge::before { content: "\2713"; font-weight: 800; }
+.review-card__text { font-size: 16px; color: var(--ink-soft); margin: 0; flex: 1 1 auto; }
+.review-card__meta { font-size: 14px; color: var(--muted); margin: 0; }
+.reviews-note { max-width: 720px; margin: 1.75rem auto 0; font-size: .95rem; line-height: 1.55; color: var(--muted); }
+
 /* ---------- Bonuses (white-bordered cards on gradient) ---------- */
 .bonus-card {
   background: #fff; border: 5px solid #fff; border-radius: var(--radius-card); overflow: hidden;
