@@ -40,14 +40,33 @@
     });
   });
 
-  /* ---- Sticky mobile CTA: show after the hero scrolls away ---- */
+  /* ---- Smart sticky mobile CTA: show after ~35% scroll; dismissible (session) ---- */
   var sticky = document.querySelector(".sticky-cta");
-  var hero = document.getElementById("top");
-  if (sticky && hero && "IntersectionObserver" in window) {
-    var io = new IntersectionObserver(function (entries) {
-      sticky.setAttribute("data-visible", String(!entries[0].isIntersecting));
-    }, { rootMargin: "-120px 0px 0px 0px" });
-    io.observe(hero);
+  if (sticky) {
+    var dismissed = false;
+    try { dismissed = sessionStorage.getItem("pb_sticky_dismissed") === "1"; } catch (e) {}
+    if (dismissed) { sticky.setAttribute("data-dismissed", "true"); }
+    var onScroll = function () {
+      if (sticky.getAttribute("data-dismissed") === "true") return;
+      var doc = document.documentElement;
+      var scrolled = (doc.scrollTop || document.body.scrollTop);
+      var max = (doc.scrollHeight - doc.clientHeight) || 1;
+      var pct = scrolled / max;
+      sticky.setAttribute("data-visible", String(pct >= 0.35));
+    };
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (!ticking) { window.requestAnimationFrame(function () { onScroll(); ticking = false; }); ticking = true; }
+    }, { passive: true });
+    onScroll();
+    var dismissBtn = sticky.querySelector(".sticky-cta__dismiss");
+    if (dismissBtn) {
+      dismissBtn.addEventListener("click", function () {
+        sticky.setAttribute("data-dismissed", "true");
+        sticky.setAttribute("data-visible", "false");
+        try { sessionStorage.setItem("pb_sticky_dismissed", "1"); } catch (e) {}
+      });
+    }
   }
 
   /* ---- Reveal-on-scroll (opt-in, respects reduced motion) ---- */
