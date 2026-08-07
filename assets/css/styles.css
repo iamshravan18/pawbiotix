@@ -422,3 +422,9 @@ table.shipping thead th { background: var(--g-core); color: #fff; }
 .references { max-width: 760px; margin: 1.5rem auto 0; padding-left: 1.3rem; font-size: .98rem; line-height: 1.6; color: var(--ink-soft); }
 .references li { margin-bottom: .6rem; }
 .references a { color: var(--g-deep); }
+
+
+/* Ordered steps (How to Order) */
+.steps { max-width: 720px; margin: 1.5rem auto 0; padding-left: 1.4rem; display: grid; gap: .8rem; }
+.steps li { font-size: 1.05rem; line-height: 1.5; }
+.steps li::marker { color: var(--g-deep); font-weight: 800; }

@@ -281,7 +281,7 @@ Automated structural checks run against the built `index.html`:
   - *Caveat:* GTM/ClickBank scripts from the real funnel are intentionally omitted here; re-adding them will affect TBT/INP — load them via GTM with consent + `async` and measure.
 
 ### Pre-launch TODO (must-do before going live)
-1. Replace placeholder **prices** with live ClickBank package prices; insert real **hoplink** on every `[data-cta]` / `.clkbank.com` CTA.
+1. Replace placeholder **prices** with live ClickBank package prices; insert real **hoplink** on every `[data-cta]` CTA. *(Done in Phase 1.5: prices $79/$69/$49 and HopLink live on all CTAs.)*
 2. Replace representative **strain names + CFU counts** with the exact label.
 3. Replace **AggregateRating/reviewCount** with genuine review data, or remove the node (never fabricate — Google + FTC risk).
 4. Swap SVG placeholders for real product/bonus/badge imagery; keep the `alt` text, add `srcset`/`<picture>` for raster.

@@ -23,7 +23,7 @@ Do not write, change, or mark up any product-specific claim until verified again
 | **Ratings / reviews** | 4.8 / 1,024 placeholder | ⚠️ | use real data or REMOVE AggregateRating (never fabricate) |
 | Guarantee | 60-day money-back | ⚠️ | confirm exact terms/window |
 | Shipping times/fees | US free 5–7d; intl $15.95 10–15d | ⚠️ | confirm current policy |
-| ClickBank **HopLink** | `clkbank.com/#!/` placeholder | ⚠️ | insert real affiliate HopLink on all CTAs |
+| ClickBank **HopLink** | live HopLink on all 9 CTAs | ✅ | `hop.clickbank.net/?affiliate=bestdg&vendor=pawbiotix&cbpage=tsl&tid=pawweb` (implemented Phase 1.5) |
 
 **Rule:** if a detail can't be verified, mark it ⚠️ in the build ticket and either omit it or use a clearly-labeled placeholder — never invent CFU counts, strains, ratings, or vet endorsements. Accuracy > optimization.
 
