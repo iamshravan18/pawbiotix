@@ -67,6 +67,14 @@
         try { sessionStorage.setItem("pb_sticky_dismissed", "1"); } catch (e) {}
       });
     }
+    /* Hide sticky while the pricing section is in view (avoid overlapping its CTAs) */
+    var pricing = document.getElementById("pricing");
+    if (pricing && "IntersectionObserver" in window) {
+      var pio = new IntersectionObserver(function (entries) {
+        sticky.setAttribute("data-near-pricing", String(entries[0].isIntersecting));
+      }, { threshold: 0.2 });
+      pio.observe(pricing);
+    }
   }
 
   /* ---- Reveal-on-scroll (opt-in, respects reduced motion) ---- */
